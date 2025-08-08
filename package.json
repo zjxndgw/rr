@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "build": "remix build",
     "dev": "remix dev",
+    "build": "remix build",
     "start": "remix-serve build",
     "postinstall": "remix setup node"
   },
@@ -16,7 +16,8 @@
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
-    "@remix-run/dev": "^1.15.0"
+    "@remix-run/dev": "^1.15.0",
+    "remix": "^1.15.0"
   },
   "engines": {
     "node": ">=16"
